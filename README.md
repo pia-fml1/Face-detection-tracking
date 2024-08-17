@@ -36,7 +36,7 @@ Other dependencies (listed in requirements.txt)
 
 You can run the face detection and tracking script on a video file or webcam feed. Replace input_video.mp4 with the path to your video file, or use 0 for webcam input.
 
-python detect_and_track.py --input input_video.mp4 --output output_video.mp4
+```python main_face.py --input input_video.mp4 --output output_video.mp4```
 ## Options:
 
 --input: Path to the input video file or 0 for webcam.
@@ -45,6 +45,7 @@ python detect_and_track.py --input input_video.mp4 --output output_video.mp4
 
 ## Example
 Here is an example command to run the script:
+
 ```python main_face.py --input video.mp4 --output tracked_output.mp4```
 
 ## License
