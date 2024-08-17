@@ -4,7 +4,7 @@ This repository contains a face detection and tracking model using OpenCV's pre-
 ## Overview
 Face Detection: Utilizes the res10_300x300_ssd_iter_140000.caffemodel pre-trained model to detect faces in images or video frames.
 Face Tracking: Uses Deep SORT to track detected faces across multiple frames.
-Getting Started
+## Getting Started
 To get started with the project, follow these steps:
 
 ## Prerequisites
@@ -12,12 +12,12 @@ Python 3.x
 OpenCV
 Deep SORT
 Other dependencies (listed in requirements.txt)
+
 ## Installation
 Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/yourusername/your-repo-name.git
+'''bash
+git clone https://github.com/yourusername/your-repo-name.git'''
 cd your-repo-name
 Install the required Python packages:
 
