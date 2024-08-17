@@ -1,7 +1,7 @@
 # Face Detection and Tracking Model
 This repository contains a face detection and tracking model using OpenCV's pre-trained Caffe model (res10_300x300_ssd_iter_140000.caffemodel) for face detection and Deep SORT (Simple Online and Realtime Tracking with a Deep Association Metric) for tracking.
 
-# Overview
+## Overview
 Face Detection: Utilizes the res10_300x300_ssd_iter_140000.caffemodel pre-trained model to detect faces in images or video frames.
 Face Tracking: Uses Deep SORT to track detected faces across multiple frames.
 Getting Started
