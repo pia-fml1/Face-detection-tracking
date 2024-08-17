@@ -52,7 +52,7 @@ Here is an example command to run the script:
 
 Here is an example of the face detection and tracking model in action:
 
-![Face Detection Example]([output/Screenshot%20(14).png])
+![Face Detection Example](output/Screenshot%20(14).png)
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
