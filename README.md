@@ -43,9 +43,9 @@ python detect_and_track.py --input input_video.mp4 --output output_video.mp4
 
 --output: Path to save the output video with tracked faces.
 
-Example
+## Example
 Here is an example command to run the script:
-python main_face.py --input video.mp4 --output tracked_output.mp4
+```python main_face.py --input video.mp4 --output tracked_output.mp4```
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
