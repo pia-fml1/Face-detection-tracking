@@ -26,11 +26,11 @@ Other dependencies (listed in requirements.txt)
 ## Download the Pre-trained Model
 1. **Download the Caffe model**:
 
-You need to download the res10_300x300_ssd_iter_140000.caffemodel file. You can download it from the official OpenCV repository.
+    You need to download the res10_300x300_ssd_iter_140000.caffemodel file. You can download it from the official OpenCV repository.
 
 2. **Save the model**:
 
-Save the downloaded res10_300x300_ssd_iter_140000.caffemodel file in the models folder of the repository. Create the models folder if it does not exist:
+    Save the downloaded res10_300x300_ssd_iter_140000.caffemodel file in the models folder of the repository. Create the models folder if it does not exist:
 
 ## Run Face Detection and Tracking:
 
@@ -43,9 +43,6 @@ python detect_and_track.py --input input_video.mp4 --output output_video.mp4
 --output: Path to save the output video with tracked faces.
 Example
 Here is an example command to run the script:
-
-bash
-Copy code
 python main_face.py --input video.mp4 --output tracked_output.mp4
 
 ## License
