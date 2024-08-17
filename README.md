@@ -16,34 +16,26 @@ Other dependencies (listed in requirements.txt)
 ## Installation
 1. **Clone the repository**:
 
-   ```bash
+   ```
    git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name```
-Install the required Python packages:
+   cd your-repo-name
+2. **Install the required Python packages**:
 
-bash
-Copy code
-pip install -r requirements.txt
-Download the Pre-trained Model
-Download the Caffe model:
+```pip install -r requirements.txt```
+
+## Download the Pre-trained Model
+1. **Download the Caffe model**:
 
 You need to download the res10_300x300_ssd_iter_140000.caffemodel file. You can download it from the official OpenCV repository.
 
-## Save the model:
+2. **Save the model**:
 
 Save the downloaded res10_300x300_ssd_iter_140000.caffemodel file in the models folder of the repository. Create the models folder if it does not exist:
 
-bash
-Copy code
-mkdir models
-mv path/to/downloaded/res10_300x300_ssd_iter_140000.caffemodel models/
-Usage
 ## Run Face Detection and Tracking:
 
 You can run the face detection and tracking script on a video file or webcam feed. Replace input_video.mp4 with the path to your video file, or use 0 for webcam input.
 
-bash
-Copy code
 python detect_and_track.py --input input_video.mp4 --output output_video.mp4
 ## Options:
 
@@ -54,7 +46,7 @@ Here is an example command to run the script:
 
 bash
 Copy code
-python detect_and_track.py --input video.mp4 --output tracked_output.mp4
+python main_face.py --input video.mp4 --output tracked_output.mp4
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
