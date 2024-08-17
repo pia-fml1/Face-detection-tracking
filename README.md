@@ -40,7 +40,9 @@ python detect_and_track.py --input input_video.mp4 --output output_video.mp4
 ## Options:
 
 --input: Path to the input video file or 0 for webcam.
+
 --output: Path to save the output video with tracked faces.
+
 Example
 Here is an example command to run the script:
 python main_face.py --input video.mp4 --output tracked_output.mp4
