@@ -24,7 +24,7 @@ def get_face_detector(model_param_path):
     model.setPreferableBackend(cv2.dnn.DNN_BACKEND_CUDA)
     model.setPreferableTarget(cv2.dnn.DNN_TARGET_CUDA_FP16)
     return model
-model_param_path=r"D:\AKS\Reflexion-AI-Face-ms - Copy\Models\Emotion_recogntion"
+model_param_path=r"models"
 detector = get_face_detector(model_param_path)
 
 def face_detector(frame):
