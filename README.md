@@ -48,6 +48,11 @@ Here is an example command to run the script:
 
 ```python main_face.py --input video.mp4 --output tracked_output.mp4```
 
+## Example
+
+Here is an example of the face detection and tracking model in action:
+
+![Face Detection Example]([output/Screenshot%20(14).png])
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
