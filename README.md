@@ -54,6 +54,10 @@ Here is an example of the face detection and tracking model in action:
 
 
 <img src="output/Screenshot%20(14).png" alt="Face Detection Example" width="500"/>
+<img src="output/Screenshot%20(15).png" alt="Face Detection Example" width="500"/>
+<img src="output/Screenshot%20(16).png" alt="Face Detection Example" width="500"/>
+
+
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
