@@ -14,11 +14,11 @@ Deep SORT
 Other dependencies (listed in requirements.txt)
 
 ## Installation
-Clone the repository:
+1. **Clone the repository**:
 
-'''bash
-git clone https://github.com/yourusername/your-repo-name.git'''
-cd your-repo-name
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   cd your-repo-name```
 Install the required Python packages:
 
 bash
